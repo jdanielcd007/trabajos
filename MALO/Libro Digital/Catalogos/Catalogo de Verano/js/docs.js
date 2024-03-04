@@ -28,6 +28,7 @@ function addPage(page, book) {
 	}
 }
 
+
 function updateTabs() {
 	
 	var tabs = {7: 'Clases', 12:'Constructor', 14:'Properties', 16:'Methods', 23:'Events'},
@@ -57,7 +58,6 @@ function updateTabs() {
 	$('.sample-docs .tabs .right').html(right.join(''));
 
 }
-
 
 function numberOfViews(book) {
 	return book.turn('pages') / 2 + 1;
