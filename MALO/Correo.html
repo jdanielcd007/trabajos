@@ -1,116 +1,18 @@
-<!doctype html>
-<!--Quite a few clients strip your Doctype out, and some even apply their own. Many clients do honor your doctype and it can make things much easier if you can validate constantly against a Doctype.-->
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<title>Contacto</title>
-
-<!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
-<!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
-
-<style type="text/css">
-body {
-	margin: 0;
-}
-body, table, td, p, a, li, blockquote {
-	-webkit-text-size-adjust: none!important;
-	font-family: sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-button {
-	width: 90%;
-}
-
-@media screen and (max-width:600px) {
-/*styling for objects with screen size less than 600px; */
-body, table, td, p, a, li, blockquote {
-	-webkit-text-size-adjust: none!important;
-	font-family: sans-serif;
-}
-table {
-	/* All tables are 100% width */
-	width: 100%;
-}
-.footer {
-	/* Footer has 2 columns each of 48% width */
-	height: auto !important;
-	max-width: 48% !important;
-	width: 48% !important;
-}
-table.responsiveImage {
-	/* Container for images in catalog */
-	height: auto !important;
-	max-width: 30% !important;
-	width: 30% !important;
-}
-table.responsiveContent {
-	/* Content that accompanies the content in the catalog */
-	height: auto !important;
-	max-width: 66% !important;
-	width: 66% !important;
-}
-.top {
-	/* Each Columnar table in the header */
-	height: auto !important;
-	max-width: 48% !important;
-	width: 48% !important;
-}
-.catalog {
-	margin-left: 0%!important;
-}
-}
-
-@media screen and (max-width:480px) {
-/*styling for objects with screen size less than 480px; */
-body, table, td, p, a, li, blockquote {
-	-webkit-text-size-adjust: none!important;
-	font-family: sans-serif;
-}
-table {
-	/* All tables are 100% width */
-	width: 100% !important;
-	border-style: none !important;
-}
-.footer {
-	/* Each footer column in this case should occupy 96% width  and 4% is allowed for email client padding*/
-	height: auto !important;
-	max-width: 96% !important;
-	width: 96% !important;
-}
-.table.responsiveImage {
-	/* Container for each image now specifying full width */
-	height: auto !important;
-	max-width: 96% !important;
-	width: 96% !important;
-}
-.table.responsiveContent {
-	/* Content in catalog  occupying full width of cell */
-	height: auto !important;
-	max-width: 96% !important;
-	width: 96% !important;
-}
-.top {
-	/* Header columns occupying full width */
-	height: auto !important;
-	max-width: 100% !important;
-	width: 100% !important;
-}
-.catalog {
-	margin-left: 0%!important;
-}
-button {
-	width: 90%!important;
-}
-}
-</style>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <p> <a class="navbar-brand" href="#">MALO</a></p>
+  </head>
+  <body style="background-color:#273746;">
+    		
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <p> <a class="navbar-brand" href="https://www.facebook.com/people/MALOH-SHOPS/61557325093239/">MALOH</a></p>
       <p>&nbsp;</p>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -123,22 +25,20 @@ button {
           <li class="nav-item"> <a class="nav-link" href="Informacion.html">Informacion</a></li>
           <li class="nav-item">&nbsp;</li>
 <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalogo</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalogos</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Catalogo.html">Catalogo General</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="Catalogo1-3.html" style="color: black;" target="_blank">Catalogo Enero - Marzo </a>
+          <a class="dropdown-item" href="#Catalogo4-6.html" target="_blank">Catalogo abril - Mayo</a>
+        <a class="dropdown-item" href="Catalogo7-9.html" target="_blank">Catalogo Junio - Septiembre</a>
+			<a class="dropdown-item" href="Catalogo10-12.html" target="_blank">Catalogo Octubre - Diciembre</a>
         </div>
         </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item"> <a class="nav-link" href="Correo.html">Contacto</a></li>
           <li class="nav-item">&nbsp;</li>
-			<li class="nav-item"> <a class="nav-link" href="#">Redes Sociales</a></li>
+			<li class="nav-item"> <a class="nav-link" href="Redes Sociales.html">Redes Sociales</a></li>
           <li class="nav-item">&nbsp;</li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="Search" placeholder="Busqueda" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
       </div>
     </nav>
@@ -161,7 +61,9 @@ button {
             </tr>
             <tr> 
               <!-- HTML IMAGE SPACER -->
-              <td style="font-size: 0; line-height: 0;" height="20"><table align="left"  cellpadding="0" cellspacing="0" >
+              <td style="font-size: 0; line-height: 0;" height="20">
+				  
+				  <table align="left"  cellpadding="0" cellspacing="0" >
                   <tr>
                     <td ><img src="images/contactate.jpg"  alt="" height="" width="100%" class=""></td>
                   </tr>
@@ -181,7 +83,9 @@ button {
                   <tr> 
                     <!-- row container for TITLE/EMAIL THEME -->
                     <td align="center" style="font-size: 32px; font-weight: 300; line-height: 2.5em; color: #929292; font-family: sans-serif;">Contacta Con Nosotros</td>
+					  <a href="mailto:rafa@gmail.com?Subject=Interesado%20en%20el%20curso">Contactar por correo</a>
                   </tr>
+				  
                 </table></td>
             </tr>
           </tbody>
@@ -195,27 +99,27 @@ button {
                   <tr> 
                    <div id="content">
 		
-		<form action="Clientes.php" method="POST">
+		<form action="solicitudes.php" method="POST">
 	        <table border="1">
-	          <tbody><tr>
+	          <tbody ><tr>
 					
-		            <td><label>Nombre</label></td>
+		            <td><label style="color: white">Nombre</label></td>
 		            <td><input type="text" name="Nombre" placeholder="Nombre" required=""></td>
 		        </tr>
 		        <tr>
-		            <td><label>Apellido</label></td>
+		            <td><label style="color: white">Apellido</label></td>
 		            <td><input type="text" name="Apellido1" placeholder="Apellido" required=""></td>
 		        </tr>
 		        <tr>
-		            <td><label>Correo electronico</label></td>
+		            <td><label style="color: white">Correo electronico</label></td>
 		            <td><input type="text" name="Correo1" placeholder="example@mail.com" required=""></td>
 		        </tr>
 		        <tr>
-		            <td><label>Telefono</label></td>
+		            <td><label style="color: white">Telefono</label></td>
 		            <td><input type="text" name="Telefono1" placeholder="Telefono" required=""></td>
 		        </tr>
 		        <tr>
-		            <td><label>Mensaje</label></td>		            <td><input type="text" name="Mensaje" placeholder="Introduzca aqui su mensaje" required=""></td>
+		            <td><label style="color: white">Mensaje</label></td>		            <td><input type="text" name="Mensaje" placeholder="Introduzca aqui su mensaje" required=""></td>
 
 		        </tr>
 		        <tr>
@@ -228,8 +132,20 @@ button {
 		       </div>
 		</tr>
 		</table>
-		</td>
-					   
-              
-</body>
+		</td>     
+	<footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h6 class="text-center text-uppercase" style="color: wheat"><strong>Copyright © MALOH All rights reserved</strong></h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+	   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
 </html>
